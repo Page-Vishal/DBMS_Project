@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="form.css">
+<html lang="en">
+<head>
+    <title>Login form</title>
+</head>
+<body>
+    <div class="main_div">
+        <div class="box">
+            <h1>Login form</h1>
+            <form action="/submit" method="POST">
+                <div class="inputbox">
+                    <input type="text" name="username" autocomplete="off" required>
+                    <label for="username">Username</label>
+                </div>
+                <div class="inputbox">
+                        <input type="password" name="password" autocomplete="off" required>
+                        <label for="password">Password</label>
+                </div>
+                <input type="submit" name="Submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
